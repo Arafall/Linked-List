@@ -2,9 +2,9 @@ package edu.otc;
 
 public class LLNode {
     public LLNode next;
-    public int data;
+    public String data;
 
-    public LLNode(int value) {
+    public LLNode(String value) {
         data = value;
     }
 }
